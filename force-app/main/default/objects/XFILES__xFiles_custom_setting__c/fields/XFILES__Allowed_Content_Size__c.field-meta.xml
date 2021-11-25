@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Allowed_Content_Size__c</fullName>
+    <defaultValue>1024</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Allowed Content Size (in MBs)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Allowed Content Size (in MBs)</inlineHelpText>
+    <label>Allowed File Size (in MBs)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

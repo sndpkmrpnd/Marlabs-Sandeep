@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__File_Version_Settings__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>It allow you to keep versions of a file.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>It allow you to keep versions of a file.</inlineHelpText>
+    <label>File Version Settings</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

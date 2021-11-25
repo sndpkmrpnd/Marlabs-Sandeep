@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Can_Inline_Upload__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>It will allow user to inline upload in light weight component</description>
+    <externalId>false</externalId>
+    <label>Enable EmailService Error Log</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

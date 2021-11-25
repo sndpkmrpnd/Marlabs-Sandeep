@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Log_Error_Related_Info__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Log Error Related Info</description>
+    <externalId>false</externalId>
+    <label>Log Error Related Info</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

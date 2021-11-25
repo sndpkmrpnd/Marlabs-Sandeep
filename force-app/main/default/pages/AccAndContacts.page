@@ -1,0 +1,76 @@
+<apex:page controller="HelperClassforAccounts" tabStyle="Account" sidebar="False">
+    <html>
+        <head>
+            <script type="text/javascript">
+            //javascript normal function call
+            function getRemoteAccount() {
+           
+                //java script remoting, below method is @RemoteAction annotated
+                HelperClassforAccounts.getAccList(function(result, event){
+                    console.log(result);
+                    var getDivTable = document.getElementById("AccountTableResult");
+                    var accountTable= '<table><tr><th>Account Id</th><th>Account Name</th><th>Action</th></tr>';
+                    for(var i =0; i<result.length;i++){
+                        accountTable += '<tr><td>'+result[i].Id+'</td><td>'+result[i].Name+'</td><td><button onclick="getContacts(\''+result[i].Id+'\')">Get Contacts</button></td></tr>';
+                    }
+                    accountTable += '</table>';
+                    getDivTable.innerHTML = accountTable;
+                },{
+                    timeout:1200000});
+            }
+            
+            function getContacts(accId) {
+                
+                console.log('ghuiowegfiuo');// javascript print method
+                //java script remoting, below method is @RemoteAction annotated
+                HelperClassforAccounts.getConList(accId,callBackR);
+                //document.getElementById("ContactTableResult").innerHTML =getContacts(\''+result[i].Id+'\');
+            }
+            
+            function callBackR(result, event){
+                console.log(result);
+                var getDivTable = document.getElementById("ContactTableResult");
+                var contactTable= '<table><tr><th>Contact Id</th><th>Contact Name</th></tr>';
+                for(var i =0; i<result.length;i++){
+                    contactTable += '<tr><td>'+result[i].Id+'</td><td>'+result[i].Name;
+                }
+                contactTable += '</table>';
+                getDivTable.innerHTML = contactTable;
+            }
+            </script>
+            
+            <style>
+                * {
+                box-sizing: border-box;
+                }
+                
+                .column {
+                float: left;
+                width: 50%;
+                padding: 5px;
+                }
+                
+                /* Clearfix (clear floats) */
+                .row::after {
+                content: "";
+                clear: both;
+                display: table;
+                }
+            </style>
+        </head>
+        <body>
+            <button onclick="getRemoteAccount()">Get Account</button>
+            <div class="row">
+                <div class="column" id="AccountTableResult">
+                    
+                </div>
+                <div class="column" id="ContactTable">
+                    <apex:pageblock title="Related Contacts"  >
+                        <div id="ContactTableResult">
+                        </div>
+                    </apex:pageblock>
+                </div>
+            </div>
+        </body>
+    </html>
+</apex:page>

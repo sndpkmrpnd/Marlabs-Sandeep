@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bank_validation_rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(UPPER( Bank_name__c )  &lt;&gt; &quot;AXIS&quot;,UPPER( Bank_name__c )  &lt;&gt; &quot;ICICI&quot;,UPPER( Bank_name__c )  &lt;&gt; &quot;HDFC&quot;)</errorConditionFormula>
+    <errorDisplayField>Bank_name__c</errorDisplayField>
+    <errorMessage>Bank should be related</errorMessage>
+</ValidationRule>

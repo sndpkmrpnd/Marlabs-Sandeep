@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Can_Link_Upload__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Can Link Upload</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Can Link Upload</inlineHelpText>
+    <label>Can Link Upload</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

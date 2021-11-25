@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Linked_Document_Count__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Count the # of child records that are linked as document.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Count the # of child records that are linked as document.</inlineHelpText>
+    <label>Linked Document Count</label>
+    <summaryFilterItems>
+        <field>XFILES__Link__c.XFILES__Related_Object_Type__c</field>
+        <operation>equals</operation>
+        <value>Document</value>
+    </summaryFilterItems>
+    <summaryForeignKey>XFILES__Link__c.XFILES__Parent_Content__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

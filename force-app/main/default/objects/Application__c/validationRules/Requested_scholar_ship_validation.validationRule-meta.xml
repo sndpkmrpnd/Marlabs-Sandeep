@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requested_scholar_ship_validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>Requested_Scholarship_Amount__c  &gt;=  40000</errorConditionFormula>
+    <errorDisplayField>Requested_Scholarship_Amount__c</errorDisplayField>
+    <errorMessage>&quot;Requested Scholarship amount&quot; should not be greater than 40000.</errorMessage>
+</ValidationRule>

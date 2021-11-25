@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Can_Edit_Data__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The user has permission to edit Content, Attachment, and Document (V-2.4). This field is used for XfileAttach Component to edit files created in GDrive.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The user has permission to edit Content, Attachment, and Document (V-2.4). This field is used for XfileAttach Component to edit files created in GDrive.(V-3.5)</inlineHelpText>
+    <label>Can Edit Data</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

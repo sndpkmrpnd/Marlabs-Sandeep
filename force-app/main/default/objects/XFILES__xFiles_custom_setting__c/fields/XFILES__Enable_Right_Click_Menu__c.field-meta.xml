@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Enable_Right_Click_Menu__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable Right Click Menu</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable Right Click Menu</inlineHelpText>
+    <label>Enable Right Click Menu</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

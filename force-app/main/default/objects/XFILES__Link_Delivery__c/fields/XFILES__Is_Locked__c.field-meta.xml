@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Is_Locked__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Is Locked</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check if you want to lock the link</inlineHelpText>
+    <label>Is Locked</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

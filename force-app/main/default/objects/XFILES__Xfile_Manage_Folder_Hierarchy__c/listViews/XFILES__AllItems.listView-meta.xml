@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__AllItems</fullName>
+    <columns>NAME</columns>
+    <columns>XFILES__Folder_Id__c</columns>
+    <columns>XFILES__Is_Active__c</columns>
+    <columns>XFILES__Provider_Name__c</columns>
+    <columns>XFILES__Provider_Type__c</columns>
+    <columns>XFILES__Folder_Reference_Field_API_Name__c</columns>
+    <columns>XFILES__Template_Folder__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Items</label>
+</ListView>

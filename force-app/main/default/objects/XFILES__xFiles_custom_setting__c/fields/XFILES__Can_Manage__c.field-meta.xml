@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Can_Manage__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Can manage the content, Document, Attachment, Link, FeedFile</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Can manage the content, Document, Attachment, Link</inlineHelpText>
+    <label>Can Manage</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Can_Upload__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>User have permission to upload a file into external storage.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>User have permission to upload a file into external storage.</inlineHelpText>
+    <label>Can Upload</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

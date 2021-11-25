@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Can_Drag_and_Drop__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This helps user to enable/disable map folder option in GDrive Component.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This helps user to enable/disable map folder option in GDrive Component.</inlineHelpText>
+    <label>Enable Map Folder</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

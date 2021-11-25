@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Link__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>External Content Detail</label>
+    <referenceTo>XFILES__External_Content_Detail__c</referenceTo>
+    <relationshipLabel>Link Deliveries</relationshipLabel>
+    <relationshipName>Link_Deliveries</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

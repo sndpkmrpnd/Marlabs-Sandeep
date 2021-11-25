@@ -1,0 +1,18 @@
+<aura:component controller="ContactListController">
+    <aura:attribute name="accId" type="String"/>
+    <aura:registerEvent name="quickContact" type="c:QuickContactEvent"/>
+	<aura:attribute name="createContact" type="contact" default="{
+                                                                 sobjectName : 'contact',
+                                                                 FirstName : '',
+                                                                 LastName : '',
+                                                                 Email : '',
+                                                                 Phone : ''
+                                                                 }"/>
+    <div class="slds-p-around_x-small">
+        <lightning:input type="text" value="{!v.createContact.FirstName}" label = "Enter First Name" required="true"/>
+        <lightning:input type="text" value="{!v.createContact.LastName}" label = "Enter Last Name" />
+         <lightning:input type="Email" value="{!v.createContact.Email}" label = "Enter First Email" required="true"/>
+         <lightning:input type="Phone" value="{!v.createContact.Phone}" label = "Enter First Phone" required="true"/> 
+        <lightning:button label="Create Contact" variant="brand" onclick="{!c.doSave}"/>
+    </div>
+</aura:component>

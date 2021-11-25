@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Manage_Columns__c</fullName>
+    <defaultValue>&quot;XFILES&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This field is used for saving Xfiles Pro NamespacePrefix.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is used for saving Xfiles Pro NamespacePrefix.</inlineHelpText>
+    <label>Xfiles Pro</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

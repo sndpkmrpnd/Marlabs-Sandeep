@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Allowed_Content_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Allowed Content Type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Allowed Content Type (separated by comma) Ex: pdf, image, doc, xls, ppt</inlineHelpText>
+    <label>Allowed File Extension</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

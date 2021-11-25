@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Share_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Share Type (View, Download, Full)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Share Type (View, Download, Full)</inlineHelpText>
+    <label>Share Type</label>
+    <length>50</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

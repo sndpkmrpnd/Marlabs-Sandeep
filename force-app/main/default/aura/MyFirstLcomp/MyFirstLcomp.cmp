@@ -1,0 +1,28 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute type="boolean" name="truthy" default="false"/>
+    <aura:attribute access="Public" type="List" name="ListOfString" default="['red','blue','green']"/>
+    <div>
+        <h1 class = "red"> This is my first Lightning component </h1>
+        <p class="green">this all about legend</p>
+        <p> bolo Har Har Mahavdev</p>
+    </div>
+    <p class="green"> Har Har Mahavdev</p>
+    <div class="green">
+        <p >this all about ok</p>
+        <p> bolo Har Har Mahavdev</p>
+    </div>
+    
+    <span class= "Blue">
+        I am inside sapn tag
+    </span><br/>
+    <aura:iteration items="{!v.ListOfString}" var="item">
+        {!item}<br/>
+    </aura:iteration>
+    <aura:if isTrue="{!v.truthy}">
+        True
+        <aura:set attribute="else">
+            False
+        </aura:set>
+    </aura:if> 
+    
+</aura:component>

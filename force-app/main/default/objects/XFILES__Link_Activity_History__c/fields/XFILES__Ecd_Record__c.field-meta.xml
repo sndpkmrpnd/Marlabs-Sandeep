@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Ecd_Record__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Ecd Record</label>
+    <referenceTo>XFILES__External_Content_Detail__c</referenceTo>
+    <relationshipLabel>Link Activity History (Ecd Record)</relationshipLabel>
+    <relationshipName>Link_Activity_History1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

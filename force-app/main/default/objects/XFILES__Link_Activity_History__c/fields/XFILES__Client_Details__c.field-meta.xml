@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Client_Details__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Client Details</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Client Details of User like OS,  Browser details</inlineHelpText>
+    <label>Record Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,24 @@
+<apex:page standardController="Contact" sidebar="false" showHeader="false">
+<h1>Congratulations</h1>
+This is My new Page
+  <apex:form >
+      <h1>
+          Today's Date is {! Today()}
+      </h1>
+     <apex:pageBlock title="Contact Page">
+         <apex:pageBlockSection columns="2">
+             <apex:inputField value="{!Contact.FirstName}"/>
+             <apex:inputField value="{!Contact.LastName}"/>
+             <apex:inputField value="{!Contact.Email}"/>
+             <apex:inputField value="{!Contact.Birthdate}"/>
+             <p>
+                 {! $User.FirstName &'  '& $User.LastName}<br/>
+                 {! $User.UserName}
+             </p>
+         </apex:pageBlockSection>
+         <apex:pageBlockButtons >
+             <apex:commandButton action="{!save}" value="Save"/>
+         </apex:pageBlockButtons>
+     </apex:pageBlock>
+  </apex:form>
+</apex:page>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Authentication_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Authentication Type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Authentication Type</inlineHelpText>
+    <label>Authentication Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Username/Password</fullName>
+                <default>true</default>
+                <label>Username/Password</label>
+            </value>
+            <value>
+                <fullName>API Key/Secret Only</fullName>
+                <default>false</default>
+                <label>API Key/Secret Only</label>
+            </value>
+            <value>
+                <fullName>Token Based (OAuth 2.0)</fullName>
+                <default>false</default>
+                <label>Token Based (OAuth 2.0)</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

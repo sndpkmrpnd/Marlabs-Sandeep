@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__No_of_Files__c</fullName>
+    <defaultValue>20</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Number of file user can upload</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of file user can upload</inlineHelpText>
+    <label>Max No of Files/Upload</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

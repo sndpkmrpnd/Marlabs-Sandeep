@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Can_Setup__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>User having permission to setup cloud storage provider</description>
+    <externalId>false</externalId>
+    <inlineHelpText>User having permission to setup cloud storage provider</inlineHelpText>
+    <label>Can Setup</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

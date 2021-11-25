@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XFILES__Can_add_tags_and_rename__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>File Auditing Activity</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

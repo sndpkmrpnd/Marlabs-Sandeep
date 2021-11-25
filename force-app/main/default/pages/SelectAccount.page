@@ -1,0 +1,24 @@
+<apex:page controller="AccountSelectController" sidebar="false" showHeader="false">
+    <apex:form >
+      <apex:pageBlock >
+      <apex:pageBlockButtons >
+         <apex:commandButton action="{!processSelectedAccount}" value="click" rerender="t2"/>
+      </apex:pageBlockButtons>
+        <apex:pageBlockSection title="Account record with checkbox">
+        <apex:pageBlockTable value="{!wrappAccountList}" var="w">
+            <apex:column value="{!w.acc.name}"/>
+             <apex:column value="{!w.acc.Phone}"/>
+         <apex:column >
+           <apex:inputCheckbox value="{!w.selected}"  />
+         </apex:column> 
+        </apex:pageBlockTable>
+            
+        <apex:pageBlockTable value="{!selectedAccList}" var="a" id="t2">
+            <apex:column value="{!a.name}"/>
+             <apex:column value="{!a.Phone}"/>
+     
+        </apex:pageBlockTable>
+        </apex:pageBlockSection>>
+      </apex:pageBlock>
+    </apex:form>
+</apex:page>
