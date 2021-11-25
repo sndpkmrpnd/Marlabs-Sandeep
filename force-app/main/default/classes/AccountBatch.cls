@@ -13,6 +13,7 @@ global with sharing class AccountBatch implements Database.Batchable<sObject>{
                    theQuery += theName + ',' ;
                }
         }
+        //sandeep
          System.debug('#### theQuery '+theQuery);
         // Trim last comma
         theQuery = theQuery.subString(0, theQuery.length() - 1);
